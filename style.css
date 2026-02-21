@@ -1,0 +1,197 @@
+body {
+
+ margin: 0px;
+
+ min-height: 100vh;
+
+ display: flex;
+
+ justify-content: center;
+
+ align-items: center;
+
+ background: white;
+
+ font-family: Arial;
+
+}
+
+
+
+/* MAIN CARD */
+
+.card {
+
+ width: 650px;         /* Business card width */
+
+ height: 400px;         /* Business card height */
+
+
+
+ position: relative;      /* Needed for absolute positioning */
+
+ display: flex;
+
+ flex-direction: column;    /* Top / Bottom layout */
+
+
+
+ overflow: hidden;
+
+}
+
+
+
+/* PHOTO COLUMN (students must style this) */
+
+.photo-column {
+
+ position: absolute;
+
+ left: 40px;
+
+ top: 40px;
+
+
+
+ width: 100px;
+
+ height: 200px;
+
+}
+
+
+
+/* PHOTO */
+
+.photo {
+
+  width: 180px;
+
+ height: 325px;
+
+ object-fit: center;
+
+}
+
+
+
+/* TOP SECTION */
+
+.top {
+
+ height: 80%;
+
+ background-color: #5f5655;
+
+display: flex;
+flex-direction: column;
+  
+
+
+ gap: 10px;
+
+
+
+ padding: 10px;
+
+ padding-left: 250px;     /* Space for photo */
+
+ padding-top: 40px;
+
+ padding-right: 15px;
+
+
+
+ color: #d8c07a;
+
+ box-sizing: border-box;
+
+  
+
+}
+
+
+
+
+
+
+
+
+/* BOTTOM SECTION */
+
+.bottom {
+
+ height: 20%;
+
+ background-color: gold;
+
+
+
+ padding-left: 1in;
+
+ padding-right: 15px;
+
+
+
+ display: flex;
+
+ align-items: center;
+
+}
+
+
+
+/* BOTTOM ROW */
+
+.bottom-row {
+
+ width: 100%;
+
+ display: flex;
+
+ justify-content: space-between;
+
+ align-items: center;
+ margin-bottom: 10px;
+
+}
+
+
+
+/* QR CODE */
+
+.qr {
+
+ width: 1in;
+
+ height: 1in;
+
+
+
+ object-fit: contain;
+
+ position: absolute;
+
+ right: 20px;
+
+ bottom: 20px;
+
+
+
+ background: green;
+
+ padding: 4px;
+
+ border-radius: 15px; 
+
+}
+
+
+h4 {
+     margin-top: 20px;
+     height: 20px;
+     botom: 500px;
+     width: 200px;
+
+}
